@@ -13,7 +13,7 @@ const app = express();
 // Enable CORS
 app.use(
     cors({
-        origin: 'http://127.0.0.1:5500',
+        origin: 'http://127.0.0.1:5002',
         credentials: true
     })
 );
